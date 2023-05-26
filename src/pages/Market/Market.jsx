@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../App.css'
-import MarketSection from '/MarketSection'
+import MarketSection from './MarketSection'
 
 function Market (){
     return (
