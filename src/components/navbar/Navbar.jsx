@@ -40,33 +40,13 @@ function Navbar() {
 
 
 
-
-
-
-    var dropdown = document.getElementsByClassName("dropdown-btn");
-    var i;
-
-    for (i = 0; i < dropdown.length; i++) {
-        dropdown[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var dropdownContent = this.nextElementSibling;
-            if (dropdownContent.style.display === "block") {
-                dropdownContent.style.display = "none";
-            } else {
-                dropdownContent.style.display = "block";
-            }
-        });
-    }
-
-
-
     return (
 
         <>
             <nav className="navbar">
                 <div className='navbar-container'>
                     <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-                        <h7>MarketTracker</h7>&nbsp;<i class="fa-solid fa-dumbbell"></i>
+                        <h7>MarketTracker</h7>&nbsp;<i class="fa-solid fa-coins"></i>
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />

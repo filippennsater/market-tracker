@@ -1,0 +1,29 @@
+
+.hero-container {
+    /*background: url('../../public/images/img-home.jpg') center center/cover no-repeat;*/
+    background-color: black;
+    margin-top: -110px;
+    height: 110vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+    /*centers in x and y*/
+    justify-content: center;
+
+    align-items: center;
+    object-fit: contain;
+}
+
+.hero-container>h1 {
+    color: white;
+    font-size: calc(20px + 2vw);
+    margin-top: -300px;
+}
+
+.hero-container>p {
+    margin-top: 8px;
+    color: white;
+    font-size: calc(12px + 1vw);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}

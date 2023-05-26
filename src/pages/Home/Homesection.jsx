@@ -5,9 +5,11 @@ import './HomeSection.scss';
 function HomeSection() {
     return (
 
-            <p>MarketTracker</p>
+        <div className='hero-container'>
             
+            <p>MarketTracker</p>
 
+        </div>
 
     )
 }
