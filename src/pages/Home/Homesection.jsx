@@ -7,7 +7,7 @@ function HomeSection() {
 
         <div className='hero-container'>
             
-            <p>MarketTracker</p>
+            <p>Home</p>
 
         </div>
 
