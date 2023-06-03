@@ -9,6 +9,10 @@ function HomeSection() {
             
             <p>Home</p>
 
+            <div className='previewContainer'>
+                
+            </div>
+
         </div>
 
     )
