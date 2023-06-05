@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './SharesAndCurrencies.scss';
+import './Shares.scss';
 
 function Shares(props) {
     return (
