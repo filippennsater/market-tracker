@@ -62,10 +62,8 @@
 }
 
 .nav-links:hover {
-  color: #000000;
-  background-color: white;
-  
-  transition: all 0.2s ease-out;
+  text-decoration-line: underline;
+  transition: all 0.6s ease-out;
 }
 
 .fa-bars {
@@ -115,8 +113,8 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
+    text-decoration-line: underline;
+    transition: all 0.6s ease-out;
   }
 
   .navbar-logo {
