@@ -5,18 +5,18 @@ import './Shares.scss';
 function Shares(props) {
     return (
         <>
-            <li className='cards__item'>
+            <li className='share'>
 
-                <Link className='cards__item__link' to={props.path} target="_blank">
-                    <figure className='cards__item__pic-wrap' data-category={props.label}> 
+                <Link className='share__link' to={props.path} target="_blank">
+                    <figure className='share__pic-wrap' data-category={props.label}> 
                         <img 
                         src={props.src} 
                         alt='ProjectImage' 
-                        className='cards__item__img' 
+                        className='share__img' 
                         />
                     </figure>
-                    <div className='cards__item__info'>
-                        <h10 className='cards__item__text1'>
+                    <div className='share__info'>
+                        <h10 className='share__text1'>
                             {props.text}
                         </h10>
                     </div>
