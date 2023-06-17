@@ -16,10 +16,10 @@ function HomeSection() {
 
 
 
-            <div className='cards__container'>
-                <div className='cards__wrapper'>
+            <div className='shares__container'>
+                <div className='shares__wrapper'>
 
-                <ul className='cards__items'>
+                <ul className='shares__items'>
                         <Shares src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
                         <Shares src='images/img-GoodGains.png' text='GoodGains' label='Bigger Project' path='https://goodgains-1202d.web.app' />
                         <Shares src='images/loading.gif' text='MarketTracker (Coming soon)' label='Bigger Project' path='/projects' />
