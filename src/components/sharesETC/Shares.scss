@@ -1,33 +1,4 @@
-.shares {
-    background: #fff;
-    background-color: white;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-  }
 
-
-
-  
-  .shares__container {
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .shares__wrapper {
-    position: relative;
-    margin: 50px 0 45px;
-    width: 80%;
-  }
-  
-  .shares {
-    margin-bottom: 50px;
-    list-style: none;
-  }
-  
   .share {
     display: flex;
     flex: 1;
@@ -108,21 +79,4 @@
     font-size: calc(10px + 1vw);
   }
   
-  @media only screen and (min-width: 1200px) {
-    .content__blog__container {
-      width: 84%;
-    }
-  }
-  
-  @media only screen and (min-width: 1024px) {
-    .shares {
-      display: flex;
-    }
-  }
-  
-  @media only screen and (max-width: 1024px) {
-    .share {
-      margin-bottom: 2rem;
-    }
-  }
 
