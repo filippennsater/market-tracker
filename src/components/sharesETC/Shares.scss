@@ -2,7 +2,9 @@
   .share {
     display: flex;
     flex: 1;
-    margin: 0 2rem;
+    margin: 5px;
+    width: 20%;
+    height: 30%;
     border-radius: 10px;
     border-width: 2px;
     border-color: black;
@@ -12,7 +14,7 @@
   .share__link {
     display: flex;
     flex-flow: column;
-    width: 100%;
+  
     box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
