@@ -16,7 +16,7 @@ function HomeSection() {
                 <ul className='share-list'>
 
                             <Shares src='images/img-portfolio1.png' text='My ' label='Bigger Project' path='/' />
-                            <Shares src='images/img-GoodGains.png' text='Good' label='Bigger Project' path='https://goodgains-1202d.web.app' />
+                            <Shares src='images/img-GoodGains.png' text='Good' label='Bigger Project' path='https://' />
                             <Shares src='images/loading.gif' text='Marke' label='Bigger Project' path='' />
                             <Shares src='images/img-8ball.png' text='Magic' label='Small project' path='' />
                         
