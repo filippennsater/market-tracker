@@ -15,10 +15,10 @@ function HomeSection() {
 
                 <ul className='share-list'>
 
-                            <Shares src='images/img-portfolio1.png' text='My Portfolio' label='Bigger Project' path='/' />
-                            <Shares src='images/img-GoodGains.png' text='GoodGains' label='Bigger Project' path='https://goodgains-1202d.web.app' />
-                            <Shares src='images/loading.gif' text='MarketTrac' label='Bigger Project' path='/projects' />
-                            <Shares src='images/img-8ball.png' text='Magic 8-ball' label='Small project' path='https://magic8ball-50df8.web.app/' />
+                            <Shares src='images/img-portfolio1.png' text='My ' label='Bigger Project' path='/' />
+                            <Shares src='images/img-GoodGains.png' text='Good' label='Bigger Project' path='https://goodgains-1202d.web.app' />
+                            <Shares src='images/loading.gif' text='Marke' label='Bigger Project' path='' />
+                            <Shares src='images/img-8ball.png' text='Magic' label='Small project' path='' />
                         
                 </ul>
 
