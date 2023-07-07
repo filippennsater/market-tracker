@@ -5,6 +5,8 @@ import Shares from '../../components/sharesETC/Shares';
 
 
 function HomeSection() {
+
+
     return (
 
         <div className='hero-container'>
@@ -15,11 +17,11 @@ function HomeSection() {
 
                 <ul className='share-list'>
 
-                            <Shares src='images/img-portfolio1.png' text='My ' label='Bigger Project' path='/' />
-                            <Shares src='images/img-.png' text='Good' label='Bigger Project' path='https://' />
-                            <Shares src='images/loading.gif' text='Marke' label='Bigger Project' path='' />
-                            <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
-                        
+                        <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                  
+
+
+
                 </ul>
 
             </div>
