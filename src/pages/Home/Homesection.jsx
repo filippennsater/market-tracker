@@ -33,6 +33,18 @@ function HomeSection() {
                 <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
                 <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
                 <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
+                <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
 
                 </ul>
 
