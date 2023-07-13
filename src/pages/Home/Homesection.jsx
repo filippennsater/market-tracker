@@ -12,7 +12,7 @@ function HomeSection() {
         <div className='hero-container'>
 
             <div className='intro-container'>
-                <p>Home</p>
+                <h7>Home</h7>
             </div>
 
             
