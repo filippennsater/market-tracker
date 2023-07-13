@@ -11,7 +11,11 @@ function HomeSection() {
 
         <div className='hero-container'>
 
-            <p>Home</p>
+            <div className='intro-container'>
+                <p>Home</p>
+            </div>
+
+            
 
             <div className='previewContainer'>
 

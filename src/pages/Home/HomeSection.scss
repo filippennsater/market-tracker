@@ -28,6 +28,10 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.intro-container{
+    margin-top: 10%;
+}
+
 .previewContainer{
     align-self: center;
     justify-self: center;
@@ -38,4 +42,14 @@
     display: grid;
     grid-template-columns: repeat(4, auto);
     list-style: none;
+}
+
+.intro-text-head{
+color: white;
+font-size: 20;
+}
+
+.intro-text{
+color: white;
+font-size: 12;
 }
