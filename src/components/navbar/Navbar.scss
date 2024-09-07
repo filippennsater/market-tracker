@@ -1,5 +1,5 @@
 .navbar {
-  background-color: none;
+  background-color: rgba(100, 100, 100, 0.5);
   height: 110px;
   display: flex;
   justify-content: center;
@@ -8,7 +8,6 @@
   position: sticky;
   top: 0;
   z-index: 999;
-  opacity: 85%;
 }
 
 .navbar-container {
@@ -20,14 +19,17 @@
 }
 
 .navbar-logo {
+  background: url('../../../public/images/LOGO.png') center center/cover no-repeat;
   color: #ffffff;
   justify-self: start;
   margin-left: 0px;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  height: calc(40px + 3.2vw);
+  width: calc(40px + 3.2vw);
   display: flex;
   align-items: center;
+  margin: 5px;
   
 }
 
