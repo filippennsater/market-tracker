@@ -2,6 +2,8 @@ import './App.css';
 
 import React from 'react';
 import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
 
@@ -23,6 +25,7 @@ function App() {
           <Route path="/favorites" exact Component={Favorites} />
           <Route path="/about" exact Component={About} />
         </Routes>
+        <Footer/>
       </Router>
     </>
 
