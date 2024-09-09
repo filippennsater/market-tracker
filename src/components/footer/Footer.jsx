@@ -56,9 +56,7 @@ function Footer() {
             <section className='social-media'>
                 <div className='social-media-wrap'>
                     <div className='footer-logo'>
-                        <Link to='/' className='social-logo'>
-                            <h7>MarketTracker</h7>&nbsp;<i class="fa-solid fa-coins"></i>
-                        </Link>
+                        <Link to='/' className='social-logo'/>
                     </div>
                     <small className='website-rights'>© 2024</small>
                     <div className='social-icons'>
