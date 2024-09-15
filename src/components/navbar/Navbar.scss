@@ -35,14 +35,16 @@
 
 .navbar-login {
   color: #ffffff;
+  background-color: #0FA97D;
   justify-self: start;
   margin-left: 0px;
   cursor: pointer;
   text-decoration: none;
-  height: calc(20px + 3vw);
-  width: calc(20px + 3vw);
+  padding: 10px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
+  justify-content: center;
   margin: 5px 0px 5px 0px;
 }
 
