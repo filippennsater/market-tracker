@@ -19,7 +19,7 @@ function HomeSection() {
 
             <div className='previewContainer'>
 
-                <ul className='share-list'>
+                <div className='share-list'>
 
                 <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
                 <Shares src='images/img-.png' text='Magic' label='Small project' path='' />
@@ -47,7 +47,7 @@ function HomeSection() {
                 
                
 
-                </ul>
+                </div>
 
             </div>
 
